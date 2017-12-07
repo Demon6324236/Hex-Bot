@@ -9,13 +9,14 @@ using System.Ling;
 using System.Text;
 using System.Threading.Tasks;
 
-client.login(process.env.BOT_TOKEN);
 
     import discord
     import asyncio
 
     
     client = discord.Client()
+
+    client.login(process.env.BOT_TOKEN);
 
     @client.event //login info
     async def on_ready():
